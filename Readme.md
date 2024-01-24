@@ -85,3 +85,6 @@ Docker setup
 - nginx -s start : to start server
 - nginx -s reload : to reload the changes when server running
 - nginx -s stop : to stop running server
+here "-s" is used to specify that we send a signal to nginx master process
+
+> Tip : use semicolon in end of all line
